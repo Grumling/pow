@@ -5,9 +5,12 @@
 }
 
 /**************** NAVIGATION MENU *************/
-
+.bigger-header{
+	position: sticky;
+	top: 0px;
+}
 nav {
-	position: fixed;
+	/* position: fixed; */
 	font-family: 'Bungee Inline', sans-serif;
 	width: 100%;
 	height: auto;
