@@ -82,8 +82,9 @@ nav {
 	background-size: 400%;
 	z-index: -1;
 	filter: blur(10px);
-	width: calc(100% + 0px);
-	height: calc(80% + 0px);
+	width: calc(100%);
+	height: calc(80%);
+
 	animation: glowing 20s linear infinite;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
@@ -126,8 +127,28 @@ nav {
 	}
 }
 
-/**** MOBILE HEADER DISPLAY NONE *******/
+/************** MOBILE HEADER DISPLAY NONE *********/
 
 .mobile-header {
 	display: none;
+}
+
+/*************** MOBILE HEADER STARTS HERE  ************/
+
+@media (max-width: 400px) and (min-width: 370px) {
+	.bigger-header {
+		display: none;
+	}
+
+	.mobile-header {
+		width: 100%;
+		display: block;
+		height: auto;
+		position: fixed;
+	}
+
+	.mobile-logo {
+		height: auto;
+		width: 120px;
+	}
 }
