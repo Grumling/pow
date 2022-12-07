@@ -20,18 +20,14 @@ nav {
 	height: auto;
 	background-color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-direction: row;
 	align-items: center;
 	padding: 1vw 4vw;
+	border-bottom: 1px solid white;
 }
 
 /***************** LOGO ******************/
-
-.logo {
-	width: 250px;
-	height: auto;
-}
 
 .logo-image {
 	width: 150px;
@@ -52,10 +48,8 @@ nav {
 	letter-spacing: 2px;
 	padding: 0 1vh;
 	height: auto;
-	border: none;
-	outline: none;
-	color: #fff;
-	background: rgb(0, 0, 0);
+	color: white;
+	background: black;
 	cursor: pointer;
 	position: relative;
 	z-index: 0;
@@ -84,35 +78,14 @@ nav {
 	filter: blur(10px);
 	width: calc(100%);
 	height: calc(80%);
-
 	animation: glowing 20s linear infinite;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 	border-radius: 10px;
 }
 
-.nav-link:active {
-	color: rgb(0, 0, 0);
-}
-
-.nav-link:on-hover:active:after {
-	background: transparent;
-}
-
 .nav-link:hover:before {
 	opacity: 1;
-}
-
-.nav-link:after {
-	z-index: -1;
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(26, 26, 26, 0.004);
-	left: 0;
-	top: 0;
-	border-radius: 10px;
 }
 
 @keyframes glowing {
@@ -133,6 +106,18 @@ nav {
 	display: none;
 }
 
+.closeIcon {
+	display: none;
+}
+
+.fa-close:before,
+.fa-multiply:before,
+.fa-remove:before,
+.fa-times:before,
+.fa-xmark:before {
+	content: '';
+}
+
 /*************** MOBILE HEADER STARTS HERE  ************/
 
 @media (max-width: 400px) and (min-width: 370px) {
@@ -150,5 +135,54 @@ nav {
 	.mobile-logo {
 		height: auto;
 		width: 120px;
+	}
+
+	/* Mobile Navigation */
+
+	.mobile-nav-link {
+		display: block;
+		margin: 2rem 4rem;
+		font-size: 25px;
+		color: white;
+		text-decoration: none;
+	}
+
+	.mobile-nav-link:hover {
+		text-decoration: underline;
+	}
+
+	.hamburger {
+		color: black;
+		position: fixed;
+		z-index: 100;
+		top: 1rem;
+		right: 1rem;
+		padding: 8px;
+		border: black solid 1px;
+		background: white;
+		cursor: pointer;
+	}
+
+	.mobile-nav-links {
+		position: fixed;
+		transform: translateY(-100%);
+		transition: transform 0.3s;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 99;
+		background: black;
+		color: white;
+		list-style: none;
+		padding-top: 4rem;
+	}
+
+	.showMenu {
+		transform: translateY(0);
+	}
+
+	.closeIcon {
+		font-weight: bold;
 	}
 }

@@ -6,23 +6,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/nav.css" />
+		<script src="./js/index.js" defer></script>
+		<!-- Linked fontawesome -->
+		<script
+			src="https://kit.fontawesome.com/c485bc7976.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="path/to/font-awesome/css/font-awesome.min.css"
+		/>
 		<title>POW!</title>
 	</head>
 	<body>
 		<!------------------ BIGGER SCREENS ----------------->
 		<header class="bigger-header">
 			<nav>
-				<div class="logo-container">
-					<div class="logo">
-						<img class="logo-image" src="./img/pow-logo.png" alt="logo image" />
-					</div>
-				</div>
 				<div class="nav-container">
 					<div class="nav-links">
 						<a class="nav-link" href="#our-product">OUR PRODUCT</a>
 						<a class="nav-link" href="#shop">SHOP</a>
+						<div class="logo-container">
+							<div class="logo">
+								<img
+									class="logo-image"
+									src="./img/pow-logo.png"
+									alt="logo image"
+								/>
+							</div>
+						</div>
 						<a class="nav-link" href="#about-us">ABOUT US</a>
-						<a class="nav-link" href="#news">NEWS</a>
+						<a class="nav-link" href="#news">NEWSLETTER</a>
 					</div>
 				</div>
 			</nav>
@@ -38,11 +52,16 @@
 					<a class="mobile-nav-link" href="#our-product">OUR PRODUCT</a>
 					<a class="mobile-nav-link" href="#shop">SHOP</a>
 					<a class="mobile-nav-link" href="#about-us">ABOUT US</a>
-					<a class="mobile-nav-link" href="#news">NEWS</a>
+					<a class="mobile-nav-link" href="#news">NEWSLETTER</a>
 				</div>
+				<button class="hamburger">
+					<i class="menuIcon fa-solid fa-bars"></i>
+					<i class="closeIcon"> X </i>
+				</button>
 			</nav>
 		</header>
 
+		<!--------------------- MAIN STARTS -------------->
 		<main>
 			<section class="hero"></section>
 			<section class="gallery"></section>
