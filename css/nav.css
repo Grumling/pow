@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-	cursor: pointer;
-	background-color: transparent;
-}
-
 /**************** NAVIGATION MENU *************/
 
 nav {
@@ -45,6 +38,7 @@ nav {
 }
 
 .nav-link {
+	font-size: 20px;
 	letter-spacing: 2px;
 	padding: 0 1vh;
 	height: auto;
@@ -54,6 +48,7 @@ nav {
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
+	text-decoration: none;
 }
 
 .nav-link:before {
@@ -108,14 +103,6 @@ nav {
 
 .closeIcon {
 	display: none;
-}
-
-.fa-close:before,
-.fa-multiply:before,
-.fa-remove:before,
-.fa-times:before,
-.fa-xmark:before {
-	content: '';
 }
 
 /*************** MOBILE HEADER STARTS HERE  ************/

@@ -1,8 +1,8 @@
 const mobileLinks = document.querySelector('.mobile-nav-links');
 const mobileLink = document.querySelectorAll('.mobile-nav-link');
 const hamburger = document.querySelector('.hamburger');
-const closeIcon = document.querySelector('.closeIcon');
-const menuIcon = document.querySelector('.menuIcon');
+const closeIcon = document.querySelector('.close-icon');
+const menuIcon = document.querySelector('.menu-icon');
 
 function toggleMenu() {
 	if (mobileLinks.classList.contains('showMenu')) {
@@ -15,6 +15,8 @@ function toggleMenu() {
 		menuIcon.style.display = 'none';
 	}
 }
+
+closeIcon.style.display = 'none';
 
 hamburger.addEventListener('click', toggleMenu);
 
