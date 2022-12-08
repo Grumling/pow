@@ -4,6 +4,7 @@ const hamburger = document.querySelector('.hamburger');
 const closeIcon = document.querySelector('.close-icon');
 const menuIcon = document.querySelector('.menu-icon');
 
+
 function toggleMenu() {
 	if (mobileLinks.classList.contains('showMenu')) {
 		mobileLinks.classList.remove('showMenu');
@@ -16,10 +17,12 @@ function toggleMenu() {
 	}
 }
 
+
 closeIcon.style.display = 'none';
 
 hamburger.addEventListener('click', toggleMenu);
 
+//Looping through
 mobileLink.forEach(function (menuItem) {
 	menuItem.addEventListener('click', toggleMenu);
 });
