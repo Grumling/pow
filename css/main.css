@@ -5,15 +5,14 @@
 }
 
 /* --- HERO --- */
-.hero-index{
-    position: relative;
-    max-width: 100%;
-    height: 65vh;
-    
-    background: 
-		linear-gradient(rgba(255, 255, 255, 0.103), rgba(0, 0, 0, 0.26)), 
-		url(/img/hero-image.png);
+.hero-index {
+	position: relative;
+	max-width: 100%;
+	height: 65vh;
+	background: linear-gradient(rgba(255, 255, 255, 0.103), rgba(0, 0, 0, 0.26)),
+		url(../img/hero-image.png);
 	background-size: cover;
+	background-position: 50%;
 }
 .hero-container {
 	position: absolute;
@@ -105,21 +104,20 @@
 
 /* --- ABOUT --- */
 
-.about-index{
-    margin: 0 auto;
-    max-width: 55vw;
-    text-align: center;
+.about-index {
+	margin: 0 auto;
+	max-width: 55vw;
+	text-align: center;
 }
 
-.about{
-    font-size: 50px;
-    font-family: 'Bungee Inline', sans-serif;
-    margin-bottom: 5px;
+.about {
+	font-size: 50px;
+	font-family: 'Bungee Inline', sans-serif;
+	margin-bottom: 5px;
 }
 
-.about-index p{
-    font-size: 20px;
-    font-family: 'Poppins';
+.about-index p {
+	line-height: 1.5;
+	font-size: 20px;
+	font-family: 'Poppins';
 }
-
-
