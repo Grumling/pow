@@ -6,27 +6,42 @@
 .functionality-container {
 	display: flex;
 	flex-direction: column;
-	padding: 0 11vw;
+	font-size: 18px;
+	padding: 0 10vw;
 	line-height: 1.7;
 	gap: 10px;
 }
 
 .functionality-container h2 {
 	font-family: 'Bungee Inline', sans-serif;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	padding-bottom: 2vh;
+	background: -webkit-linear-gradient(
+		#f1e255,
+		#df6b1f,
+		#c3dd63,
+		#ad3112,
+		#8d101a
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 1025px) and (max-width: 2570px) {
 	.functionality {
-		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 
 	.functionality-container {
+		width: 80%;
 		font-size: 20px;
 		line-height: 1;
 		gap: 10px;
+		padding: 0 20vw;
 		text-align: center;
 	}
 

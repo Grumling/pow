@@ -16,7 +16,7 @@ nav {
 	flex-direction: row;
 	align-items: center;
 	padding: 1vw 4vw;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid rgb(42, 41, 43);
 }
 
 /***************** LOGO ******************/
@@ -166,6 +166,8 @@ nav {
 	}
 
 	.showMenu {
+		padding-top: 20vh;
+
 		transform: translateY(0);
 	}
 

@@ -30,7 +30,7 @@
 	background-color: rgba(0, 255, 255, 0.671);
 	border-radius: 5px;
 	height: 50px;
-	padding: 10px 30px;
+	padding: 30px 50px;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.06em;
@@ -106,18 +106,54 @@
 
 .about-index {
 	margin: 0 auto;
-	max-width: 55vw;
+	max-width: 40vw;
 	text-align: center;
 }
 
 .about {
 	font-size: 50px;
 	font-family: 'Bungee Inline', sans-serif;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
+	background: -webkit-linear-gradient(#1aa4c7, #7139d8, #5c0f45);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .about-index p {
-	line-height: 1.5;
+	line-height: 1.2;
 	font-size: 20px;
 	font-family: 'Poppins';
+}
+
+@media (min-width: 370px) and (max-width: 400px) {
+	.about-index {
+		max-width: 80%;
+		text-align: left;
+	}
+
+	.about {
+		font-size: 2rem;
+		margin-bottom: 20px;
+	}
+
+	.about-index p {
+		font-size: 18px;
+	}
+
+	.hero-index {
+		max-width: 100%;
+		height: 40vh;
+		background-size: 180%;
+		background-repeat: no-repeat;
+	}
+
+	.hero-container {
+		width: 40%;
+		left: 55%;
+	}
+
+	.hero-button {
+		font-size: 15px;
+		padding: 5px 15px;
+	}
 }
