@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-
+/* --- HERO --- */
 .hero-index{
     position: relative;
     max-width: 100%;
@@ -86,16 +86,23 @@
     100% { background-position: 0 0; }
 }
 
+/* --- ABOUT --- */
 
+.about-index{
+    margin: 0 auto;
+    max-width: 55vw;
+    text-align: center;
+}
 
-/* .hero-container{
-    
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-      
-} */
+.about{
+    font-size: 50px;
+    font-family: 'Bungee Inline', sans-serif;
+    margin-bottom: 5px;
+}
 
+.about-index p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
 
 
