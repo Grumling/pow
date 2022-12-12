@@ -1,0 +1,92 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.fcontainer{
+
+    max-width: 100%;
+
+
+
+}
+
+ .mform{
+
+flex-direction: column;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+
+
+
+.finp{
+
+    margin-bottom: 10px;
+
+    width: 320px;
+
+    height: 30px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px;
+
+   
+
+}
+
+.fbtn{
+
+   
+
+    width: 90px;
+
+    height: 30px;
+
+}
+
+
+
+
+
+h2{
+
+    margin: 20px 0 15px 0;
+
+    text-transform: uppercase;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+
+
+
+}
+
+h3{
+
+   margin-bottom: 10px;
+
+   font-family: 'Poppins', sans-serif;
+
+}
+
+p{
+
+    margin-bottom: 10px;
+
+    font-family: 'Poppins', sans-serif;
+
+}

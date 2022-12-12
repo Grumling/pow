@@ -1,15 +1,20 @@
 
 
 /* Slideshow container */
-.slideshow-container {
-    max-width: 50vw;
-    position: relative;
-    margin: auto;
+.gallery{
+    width: 40vw;
+    margin: 0 auto;
+    
+}
+
+.gallery-container{
+  /* margin: 0 auto; */
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
+    
 }
 
 /* Next & previous buttons */
@@ -77,6 +82,7 @@
 
 /* Fading animation */
 .fade {
+    
     animation-name: fade;
     animation-duration: 1.5s;
 }
@@ -84,4 +90,13 @@
 @keyframes fade {
   from { opacity: .4 }
   to { opacity: 1 }
+}
+
+
+
+@media (min-width: 370px) and (max-width: 400px){
+    .gallery{
+        width: 100vw;
+        margin: 0 auto;
+
 }
