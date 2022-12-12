@@ -2,7 +2,7 @@
 
 .functionality {
 	width: 100%;
-	padding-bottom: 5vh;
+	padding-bottom: 3vh;
 }
 
 .functionality-container {
@@ -13,7 +13,7 @@
 	line-height: 1.7;
 }
 
-.functionality-container h2 {
+.functionality-container h1 {
 	font-family: 'Bungee Inline', sans-serif;
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -37,6 +37,7 @@
 	}
 
 	.functionality-container {
+		margin-top: 5vh;
 		width: 80%;
 		font-size: 20px;
 		line-height: 1;
@@ -45,7 +46,7 @@
 		text-align: center;
 	}
 
-	.functionality-container h2 {
+	.functionality-container h1 {
 		font-family: 'Bungee Inline', sans-serif;
 		font-size: 50px;
 		padding-bottom: 2vh;

@@ -4,14 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="img/favicon-16x16.png">
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/functionality.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/footer.css" />
-		<link rel="stylesheet" href="css/gallery.css">
-		<link rel="stylesheet" href="css/news.css">
+		<link rel="stylesheet" href="css/gallery.css" />
+		<link rel="stylesheet" href="css/news.css" />
 		<script src="./js/index.js" defer></script>
 		<script src="/js/gallery.js" defer></script>
 		<!-- Linked fontawesome -->
@@ -26,7 +27,6 @@
 		<title>POW!</title>
 	</head>
 	<body>
-	
 		<!------------------ BIGGER SCREENS ----------------->
 		<header class="bigger-header">
 			<nav>
@@ -36,11 +36,13 @@
 						<a class="nav-link" href="#products">PRODUCTS</a>
 						<div class="logo-container">
 							<div class="logo">
-								<img
+								<a href="index.html">
+									<img
 									class="logo-image"
 									src="./img/pow-logo.png"
 									alt="logo image"
 								/>
+							</a>
 							</div>
 						</div>
 						<a class="nav-link" href="#functionality">OUR FUNCTIONALITY</a>
@@ -71,7 +73,6 @@
 
 		<!--------------------- MAIN STARTS -------------->
 		<main>
-
 			<!--------------------- HERO --------------------->
 			<section id="top" class="hero-index">
 				<div class="hero-container">
@@ -110,11 +111,11 @@
 					</div> -->
 				</div>
 			</section>
-			
+
 			<!----------------------- FUNCTIONALITY AND NEWSLETTER HERE----------------------->
 			<section id="functionality" class="functionality">
 				<div class="functionality-container">
-					<h2>Our functionality</h2>
+					<h1>Our functionality</h1>
 					<p>
 						These non-alcoholic beverages are designed to provide the consumer
 						with a rapid energy boost. <br />
@@ -133,24 +134,27 @@
 					</p>
 				</div>
 			</section>
+			
+			<!------------------- NEWSLETTER  ---------------->
 			<section id="newsletter" class="newsletter">
 				<form action="#">
+					<div class="fcontainer">
+						<h2>NEWSLETTER</h1>
 
-                    <div class="fcontainer">
+						<p class="fp">Sign up to receive updates on our newest goods.</p>
 
-                    <div class="mform">
-
-                    <div class="h2"><h2>NEWSLETTER</h2></div>
-
-                    <h3 class="fh3">Sign up and get fresh news about our new products</h3>
-
-                    <p>Email address</p>
-
-                    <input class="finp" type="email" class="mform" placeholder="Write your Email" required>
-
-                    <input class="fbtn" type="submit" value="Sign me up!">
-
-                </form>
+						<input
+							class="finp"
+							type="email"
+							class="mform"
+							placeholder="Your email"
+							required
+						/>
+							<div class="btn-container">
+							 	<input class="fbtn" type="submit" value="Sign me up!" />
+						  </div>
+					</div>
+				</form>
 			</section>
 		</main>
 
@@ -182,16 +186,12 @@
 
 				<div class="copyright-backtop">
 					<div class="copyright">
-					<p>© 2022 POW/Medieskolerne</p>
-					<p>Tiia Mike Shamil Dmytro</p>
-					
+						<p>© 2022 POW/Medieskolerne</p>
+						<p>Tiia Mike Shamil Dmytro</p>
 					</div>
 					<div class="back-top"><a id="button" href="#top"></a></div>
 				</div>
-				
 			</div>
-			
-			
 		</footer>
 	</body>
 </html>

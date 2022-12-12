@@ -98,10 +98,9 @@
 /* --- ABOUT --- */
 
 .about-index {
-	margin: 0 auto;
+	margin: 5vh auto;
 	max-width: 40vw;
 	text-align: center;
-	padding-bottom: 5vh;
 }
 
 .about {
@@ -163,6 +162,7 @@
 	.about-index {
 		max-width: 80%;
 		text-align: left;
+		margin-top: 2vh;
 	}
 
 	.about {
