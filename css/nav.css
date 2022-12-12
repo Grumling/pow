@@ -125,6 +125,9 @@ nav {
 	}
 
 	/* Mobile Navigation */
+	.mobile-nav-link:hover {
+		text-decoration: underline;
+	}
 
 	.mobile-nav-link {
 		display: block;
@@ -132,10 +135,6 @@ nav {
 		font-size: 25px;
 		color: white;
 		text-decoration: none;
-	}
-
-	.mobile-nav-link:hover {
-		text-decoration: underline;
 	}
 
 	.hamburger {
@@ -167,7 +166,6 @@ nav {
 
 	.showMenu {
 		padding-top: 20vh;
-
 		transform: translateY(0);
 	}
 

@@ -1,7 +1,4 @@
-
-main{
-	
-	
+main {
 }
 /* --- HERO --- */
 .hero-index {
@@ -106,6 +103,7 @@ main{
 	margin: 0 auto;
 	max-width: 40vw;
 	text-align: center;
+	padding-bottom: 5vh;
 }
 
 .about {
@@ -156,7 +154,43 @@ main{
 	}
 }
 
-
-.gallery-slideshow-container{
+.gallery-slideshow-container {
 	margin: 0 auto;
+}
+
+/************** Back to top button *******************/
+
+.copyright-backtop {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: row;
+}
+
+.back-top {
+	position: absolute;
+	right: 10vw;
+}
+
+#button {
+	display: inline-block;
+	background-color: #3dc7b0;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	z-index: 1000;
+}
+
+#button::after {
+	content: '\f077';
+	font-family: FontAwesome;
+	font-size: 32px;
+	color: #fff;
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: rgb(42, 161, 101);
+	transition: 0.3s;
 }
