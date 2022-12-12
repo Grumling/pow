@@ -5,7 +5,6 @@
 	top: 0px;
 }
 nav {
-	/* position: fixed; */
 	position: sticky;
 	font-family: 'Bungee Inline', sans-serif;
 	width: 100%;
@@ -26,7 +25,7 @@ nav {
 	height: 80px;
 }
 
-/******************* NAVIGATION BUTTONS *********/
+/******************* NAVIGATION LINKS *********/
 
 .nav-links {
 	height: auto;
@@ -43,7 +42,6 @@ nav {
 	height: auto;
 	color: white;
 	background: black;
-	cursor: pointer;
 	position: relative;
 	z-index: 0;
 	border-radius: 10px;
@@ -100,10 +98,6 @@ nav {
 	display: none;
 }
 
-.closeIcon {
-	display: none;
-}
-
 /*************** MOBILE HEADER STARTS HERE  ************/
 
 @media (max-width: 400px) and (min-width: 370px) {
@@ -146,7 +140,6 @@ nav {
 		padding: 8px;
 		border: black solid 1px;
 		background: black;
-		cursor: pointer;
 	}
 
 	.mobile-nav-links {
