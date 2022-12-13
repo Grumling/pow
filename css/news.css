@@ -35,6 +35,7 @@
 	padding: 0.8vh 0;
 	font-weight: 500;
 	border: 1px solid white;
+	cursor: pointer;
 }
 
 .fbtn:hover {
