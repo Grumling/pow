@@ -24,7 +24,7 @@
 			rel="stylesheet"
 			href="path/to/font-awesome/css/font-awesome.min.css"
 		/>
-		<title>POW! - JUST POW! IT</title>
+		<title>POW! - Power Up with POW!</title>
 	</head>
 	<body>
 		<!------------------ BIGGER SCREENS ----------------->
@@ -137,11 +137,11 @@
 			
 			<!------------------- NEWSLETTER  ---------------->
 			<section id="newsletter" class="newsletter">
-				<form action="#">
+				<form id="newsForm" action="#" method="post">
 					<div class="fcontainer">
 						<h2>NEWSLETTER</h1>
 
-						<p class="fp">Sign up to receive updates on our newest goods.</p>
+						<p class="fp">Subscribe  to receive updates on our newest goods, sales and more!</p>
 
 						<input
 							class="finp"
@@ -150,9 +150,16 @@
 							placeholder="Your email"
 							required
 						/>
+						<div class="subscribe">
+						  <input type="checkbox" id="subscribe" name="newsletter" value="newsletter" required>
+							<label for="newsletter"> Subscribe to our newsletter!</label>
+						</div>
+						<p class="p-subs"> <i>You may unsubscribe at any moment</i></p>
 							<div class="btn-container">
-							 	<input class="fbtn" type="button" value="Sign me up!" />
+							 	<input class="fbtn" type="submit" value="Subscribe!" />
 						  </div>
+							<br>
+							<div id="status"></div>
 					</div>
 				</form>
 			</section>
